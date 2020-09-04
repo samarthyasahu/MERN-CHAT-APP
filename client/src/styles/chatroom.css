@@ -1,0 +1,69 @@
+.chatroomPage {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: -8px;
+}
+
+.chatroomSection {
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  width: 40vw;
+  height: 80vh;
+  margin: auto;
+  border: 1px solid #eee;
+  position: relative;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.chatroomContent {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  right: 0;
+  bottom: 3.5rem;
+  padding: 0.5rem;
+  overflow: scroll;
+}
+
+.chatroomActions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 72px;
+  grid-gap: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.chatroomActions button {
+  height: 100%;
+}
+
+.message {
+  margin-bottom: 0.25rem;
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.ownMessage {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+
+.chatname {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}
